@@ -112,6 +112,8 @@
             android:paddingRight="8dp"
             app:startIconDrawable="@drawable/ic_pen_24dp_black"
             app:startIconContentDescription="Note"
+            app:counterEnabled="true"
+            app:counterMaxLength="150"
         >
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/transaction_add_note"
