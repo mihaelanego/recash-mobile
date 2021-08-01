@@ -1,4 +1,4 @@
-package com.mihaelanegoita.recash.ui.gallery;
+package com.mihaelanegoita.recash.ui.transactions;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -12,24 +12,23 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.mihaelanegoita.recash.R;
-import com.mihaelanegoita.recash.databinding.FragmentGalleryBinding;
+import com.mihaelanegoita.recash.databinding.FragmentTransactionsBinding;
 
-public class GalleryFragment extends Fragment {
+public class TransactionsFragment extends Fragment {
 
-    private GalleryViewModel galleryViewModel;
-    private FragmentGalleryBinding binding;
+    private TransactionsViewModel transactionsViewModel;
+    private FragmentTransactionsBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        galleryViewModel =
-                new ViewModelProvider(this).get(GalleryViewModel.class);
+        transactionsViewModel =
+                new ViewModelProvider(this).get(TransactionsViewModel.class);
 
-        binding = FragmentGalleryBinding.inflate(inflater, container, false);
+        binding = FragmentTransactionsBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        final TextView textView = binding.textGallery;
-        galleryViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
+        final TextView textView = binding.textTransactions;
+        transactionsViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {
                 textView.setText(s);

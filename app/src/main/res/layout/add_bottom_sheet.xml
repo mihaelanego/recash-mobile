@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.add.AddFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add a new transaction"
+        android:layout_marginTop="5dp"
+        android:textAlignment="center"
+        android:textSize="17sp" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+    >
+        <com.google.android.material.button.MaterialButtonToggleGroup
+            android:id="@+id/transaction_type_toggle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:singleSelection="true"
+            app:checkedButton="@+id/add_expense_button"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+        >
+            <Button
+                android:id="@+id/add_income_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Income"
+                android:textAllCaps="false"
+                android:drawableLeft="@drawable/ic_up_arrow_24dp_black"
+                style="?attr/materialButtonOutlinedStyle"
+            />
+            <Button
+                android:id="@+id/add_expense_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Expense"
+                android:textAllCaps="false"
+                android:drawableRight="@drawable/ic_down_arrow_24dp_black"
+                style="?attr/materialButtonOutlinedStyle"
+            />
+        </com.google.android.material.button.MaterialButtonToggleGroup>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+    >
+        <Button
+            android:id="@+id/transaction_add_select_category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:text="Category"
+            android:textAllCaps="false"
+            android:drawableLeft="@drawable/ic_categories_black_24dp"
+            style="?attr/materialButtonOutlinedStyle"
+            />
+
+        <Button
+            android:id="@+id/transaction_add_select_date"
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/transaction_add_select_category"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:drawableLeft="@drawable/ic_calendar_24dp_black"
+            android:text="Today"
+            android:textAllCaps="false" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/transaction_add_amount_container"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_below="@id/transaction_add_select_date"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:hint="Amount"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            app:startIconDrawable="@drawable/ic_currency_24dp_black"
+            app:startIconContentDescription="Money"
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:id="@+id/transaction_add_amount"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/transaction_add_note_container"
+            android:layout_below="@id/transaction_add_amount_container"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Note"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            app:startIconDrawable="@drawable/ic_pen_24dp_black"
+            app:startIconContentDescription="Note"
+        >
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/transaction_add_note"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+            />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/transaction_add_button"
+            android:layout_below="@id/transaction_add_note_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:text="Add"
+            android:textAllCaps="false"
+            />
+    </RelativeLayout>
+</LinearLayout>
