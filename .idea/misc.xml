@@ -8,8 +8,31 @@
         <entry key="..\:/Users/Cioba/AndroidStudioProjects/Recash/app/src/main/res/drawable/ic_categories_black_24dp.xml" value="0.38697916666666665" />
         <entry key="..\:/Users/Cioba/AndroidStudioProjects/Recash/app/src/main/res/drawable/ic_currency_24dp_black.xml" value="0.38697916666666665" />
         <entry key="..\:/Users/Cioba/AndroidStudioProjects/Recash/app/src/main/res/drawable/ic_down_arrow_24dp_black.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/Cioba/AndroidStudioProjects/Recash/app/src/main/res/drawable/ic_expense_beauty_black_24dp.xml" value="0.221875" />
+        <entry key="..\:/Users/Cioba/AndroidStudioProjects/Recash/app/src/main/res/drawable/ic_expense_bills_black_24dp.xml" value="0.221875" />
+        <entry key="..\:/Users/Cioba/AndroidStudioProjects/Recash/app/src/main/res/drawable/ic_expense_education_black_24dp.xml" value="0.221875" />
+        <entry key="..\:/Users/Cioba/AndroidStudioProjects/Recash/app/src/main/res/drawable/ic_expense_entertainment_black_24dp.xml" value="0.221875" />
+        <entry key="..\:/Users/Cioba/AndroidStudioProjects/Recash/app/src/main/res/drawable/ic_expense_family_black_24dp.xml" value="0.221875" />
+        <entry key="..\:/Users/Cioba/AndroidStudioProjects/Recash/app/src/main/res/drawable/ic_expense_food_black_24dp.xml" value="0.221875" />
+        <entry key="..\:/Users/Cioba/AndroidStudioProjects/Recash/app/src/main/res/drawable/ic_expense_groceries_black_24dp.xml" value="0.221875" />
+        <entry key="..\:/Users/Cioba/AndroidStudioProjects/Recash/app/src/main/res/drawable/ic_expense_healthcare_black_24dp.xml" value="0.221875" />
+        <entry key="..\:/Users/Cioba/AndroidStudioProjects/Recash/app/src/main/res/drawable/ic_expense_home_black_24dp.xml" value="0.221875" />
+        <entry key="..\:/Users/Cioba/AndroidStudioProjects/Recash/app/src/main/res/drawable/ic_expense_other_black_24dp.xml" value="0.221875" />
+        <entry key="..\:/Users/Cioba/AndroidStudioProjects/Recash/app/src/main/res/drawable/ic_expense_shopping_black_24dp.xml" value="0.221875" />
+        <entry key="..\:/Users/Cioba/AndroidStudioProjects/Recash/app/src/main/res/drawable/ic_expense_sport_black_24dp.xml" value="0.221875" />
+        <entry key="..\:/Users/Cioba/AndroidStudioProjects/Recash/app/src/main/res/drawable/ic_expense_transport_black_24dp.xml" value="0.221875" />
+        <entry key="..\:/Users/Cioba/AndroidStudioProjects/Recash/app/src/main/res/drawable/ic_expense_travel_black_24dp.xml" value="0.221875" />
+        <entry key="..\:/Users/Cioba/AndroidStudioProjects/Recash/app/src/main/res/drawable/ic_expense_work_black_24dp.xml" value="0.221875" />
         <entry key="..\:/Users/Cioba/AndroidStudioProjects/Recash/app/src/main/res/drawable/ic_hamburger_24db_white.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/Cioba/AndroidStudioProjects/Recash/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/Cioba/AndroidStudioProjects/Recash/app/src/main/res/drawable/ic_income_business_black_24dp.xml" value="0.221875" />
+        <entry key="..\:/Users/Cioba/AndroidStudioProjects/Recash/app/src/main/res/drawable/ic_income_extra_black_24dp.xml" value="0.221875" />
+        <entry key="..\:/Users/Cioba/AndroidStudioProjects/Recash/app/src/main/res/drawable/ic_income_gifts_black_24dp.xml" value="0.221875" />
+        <entry key="..\:/Users/Cioba/AndroidStudioProjects/Recash/app/src/main/res/drawable/ic_income_insurance_black_24dp.xml" value="0.221875" />
+        <entry key="..\:/Users/Cioba/AndroidStudioProjects/Recash/app/src/main/res/drawable/ic_income_loan_black_24dp.xml" value="0.221875" />
+        <entry key="..\:/Users/Cioba/AndroidStudioProjects/Recash/app/src/main/res/drawable/ic_income_other_black_24dp.xml" value="0.221875" />
+        <entry key="..\:/Users/Cioba/AndroidStudioProjects/Recash/app/src/main/res/drawable/ic_income_parental_black_24dp.xml" value="0.221875" />
+        <entry key="..\:/Users/Cioba/AndroidStudioProjects/Recash/app/src/main/res/drawable/ic_income_salary_black_24dp.xml" value="0.221875" />
         <entry key="..\:/Users/Cioba/AndroidStudioProjects/Recash/app/src/main/res/drawable/ic_launcher_background.xml" value="0.38697916666666665" />
         <entry key="..\:/Users/Cioba/AndroidStudioProjects/Recash/app/src/main/res/drawable/ic_menu_camera.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/Cioba/AndroidStudioProjects/Recash/app/src/main/res/drawable/ic_pen_24dp_black.xml" value="0.38697916666666665" />
@@ -28,6 +51,7 @@
         <entry key="..\:/Users/Cioba/AndroidStudioProjects/Recash/app/src/main/res/layout/fragment_category_browser.xml" value="0.20833333333333334" />
         <entry key="..\:/Users/Cioba/AndroidStudioProjects/Recash/app/src/main/res/layout/fragment_transactions.xml" value="0.37083333333333335" />
         <entry key="..\:/Users/Cioba/AndroidStudioProjects/Recash/app/src/main/res/layout/nav_header_main.xml" value="0.37083333333333335" />
+        <entry key="..\:/Users/Cioba/AndroidStudioProjects/Recash/app/src/main/res/layout/transaction_list_item.xml" value="0.5" />
         <entry key="..\:/Users/Cioba/AndroidStudioProjects/Recash/app/src/main/res/menu/activity_main_drawer.xml" value="0.37083333333333335" />
         <entry key="..\:/Users/Cioba/AndroidStudioProjects/Recash/app/src/main/res/menu/main.xml" value="0.37083333333333335" />
         <entry key="..\:/Users/Cioba/AndroidStudioProjects/Recash/app/src/main/res/menu/menu_toggles.xml" value="0.37083333333333335" />

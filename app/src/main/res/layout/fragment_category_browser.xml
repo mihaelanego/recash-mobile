@@ -3,11 +3,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".ui.categorybrowser.CategoryBrowserFragment">
 
-    <TextView
+    <com.google.android.material.chip.ChipGroup
+        android:id="@+id/categories_chip_group"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Hello category browser" />
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        >
+
+    </com.google.android.material.chip.ChipGroup>
 
 </FrameLayout>

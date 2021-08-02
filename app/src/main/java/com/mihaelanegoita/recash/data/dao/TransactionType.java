@@ -1,4 +1,4 @@
-package com.mihaelanegoita.recash.dto.transaction;
+package com.mihaelanegoita.recash.data.dao;
 
 public enum TransactionType {
     INCOME,

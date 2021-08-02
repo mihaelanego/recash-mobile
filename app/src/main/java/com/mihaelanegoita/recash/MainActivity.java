@@ -18,6 +18,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.mihaelanegoita.recash.databinding.ActivityMainBinding;
 import com.mihaelanegoita.recash.ui.add.AddFragment;
 
+import dagger.hilt.android.AndroidEntryPoint;
+
+@AndroidEntryPoint
 public class MainActivity extends AppCompatActivity {
 
     private AppBarConfiguration mAppBarConfiguration;
