@@ -1,0 +1,83 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 3,
+    "identityHash": "87a168d174957518df9e7ab2a39be356",
+    "entities": [
+      {
+        "tableName": "Transaction",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `type` INTEGER NOT NULL DEFAULT 1, `category_id` TEXT DEFAULT '0', `category_name` TEXT DEFAULT 'Other', `category_drawable` TEXT DEFAULT 'ic_expense_other_black_24dp', `created_ts` INTEGER NOT NULL DEFAULT 0, `amount` REAL NOT NULL DEFAULT 0, `note` TEXT DEFAULT '')",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "type",
+            "columnName": "type",
+            "affinity": "INTEGER",
+            "notNull": true,
+            "defaultValue": "1"
+          },
+          {
+            "fieldPath": "categoryId",
+            "columnName": "category_id",
+            "affinity": "TEXT",
+            "notNull": false,
+            "defaultValue": "'0'"
+          },
+          {
+            "fieldPath": "categoryName",
+            "columnName": "category_name",
+            "affinity": "TEXT",
+            "notNull": false,
+            "defaultValue": "'Other'"
+          },
+          {
+            "fieldPath": "categoryDrawable",
+            "columnName": "category_drawable",
+            "affinity": "TEXT",
+            "notNull": false,
+            "defaultValue": "'ic_expense_other_black_24dp'"
+          },
+          {
+            "fieldPath": "createdTimestamp",
+            "columnName": "created_ts",
+            "affinity": "INTEGER",
+            "notNull": true,
+            "defaultValue": "0"
+          },
+          {
+            "fieldPath": "amount",
+            "columnName": "amount",
+            "affinity": "REAL",
+            "notNull": true,
+            "defaultValue": "0"
+          },
+          {
+            "fieldPath": "note",
+            "columnName": "note",
+            "affinity": "TEXT",
+            "notNull": false,
+            "defaultValue": "''"
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "id"
+          ],
+          "autoGenerate": true
+        },
+        "indices": [],
+        "foreignKeys": []
+      }
+    ],
+    "views": [],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '87a168d174957518df9e7ab2a39be356')"
+    ]
+  }
+}
